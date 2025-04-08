@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/lib/utils";
 
+
 export const TextGenerateEffect = ({
   words,
   className,
@@ -32,7 +33,7 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              className="text-4xl md:text-5xl lg:text-8xl text-center text-[#8AD4D3] relative z-20 opacity-0"
+              className="text-2xl md:text-3xl lg:text-6xl text-center text-[#8AD4D3] relative z-20 opacity-0"
             >
               {word}{" "}
             </motion.span>
